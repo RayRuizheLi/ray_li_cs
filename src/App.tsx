@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import ReactGA from 'react-ga';
 
 import { AiOutlineInstagram, AiOutlineYoutube} from 'react-icons/ai';
 import { FaTiktok } from 'react-icons/fa'
 
 import { CodeBlock, dracula } from "react-code-blocks";
+
+const TRACKING_ID = "G-6BZGFXL3E9"; 
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
