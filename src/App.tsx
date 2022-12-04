@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import ReactGA from 'react-ga';
 
@@ -11,6 +11,10 @@ const TRACKING_ID = "G-6BZGFXL3E9";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <div className="App">
       <h1 className="App-title">LRU Cache Sample Implementation</h1>
