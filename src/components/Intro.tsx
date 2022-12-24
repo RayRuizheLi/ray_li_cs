@@ -8,11 +8,11 @@ function Intro() {
   return (
     <div className="Question">
       <p className="Question-intro">
-          Welcome to Ray Li CS!<br></br><br></br><br></br>
+          Welcome to Ray Li CS!<br></br>
       </p>
       <p className="Question-intro">
           This is a simple proof of concept to see if people are interested to checkout
-          the code implementation of a video C:<br></br><br></br>
+          the code implementation of a video C:<br></br>
       </p>
       <ul className="Question-intro">
         <li><a className="Question-link" href="https://www.tiktok.com/@raylics" target="_blank" rel="noopener noreferrer"><FaTiktok /> TikTok</a></li>

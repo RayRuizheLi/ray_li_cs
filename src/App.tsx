@@ -16,6 +16,7 @@ class App extends Component {
           <Navigation />
             <Routes>
              <Route path="/" element={<Home/>}/>
+             <Route path="/ray_li_cs" element={<Home/>}/>
              <Route path="/LRUCache" element={<LRUCache/>}/>
              <Route path="/MeetingScheduler" element={<MeetingScheduler/>}/>
             <Route element={<Error/>}/>
