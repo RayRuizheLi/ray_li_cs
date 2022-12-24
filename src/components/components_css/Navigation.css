@@ -1,0 +1,10 @@
+.Navigation {
+    font-size: calc(2px + 2vmin);
+    background-color: #00203fff;
+    padding: calc(10px + 2vmin);
+}
+
+.Navigation-link {
+    padding: 20px;
+    color: #ffffff;
+}

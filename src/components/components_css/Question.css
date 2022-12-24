@@ -1,9 +1,14 @@
-.App {
+.Question {
   background-color: #adefd1ff;
-  padding-bottom: 20px
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.App-title {
+.Question-home {
+  background-color: #adefd1ff;
+}
+
+.Question-title {
   width: 100%;
   height: auto;
   outline: none;
@@ -18,15 +23,19 @@
   margin-bottom: 0px;
 }
 
-.App-link {
+.Question-subtitle {
+  font-size: calc(15px + 2vmin);
+}
+
+.Question-link {
   color: #287b93;
 }
 
-.App-body {
+.Question-body {
   background-color: #00203fff;
 }
 
-.App-body, .App-intro {
+.Question-body, .Question-intro {
   display: flex;
   flex-direction: column;
   align-items: left;
