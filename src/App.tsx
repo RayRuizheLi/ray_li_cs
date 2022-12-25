@@ -15,7 +15,6 @@ class App extends Component {
         <div className="App">
           <Navigation />
             <Routes>
-             <Route path="/" element={<Home/>}/>
              <Route path="/ray_li_cs" element={<Home/>}/>
              <Route path="/LRUCache" element={<LRUCache/>}/>
              <Route path="/MeetingScheduler" element={<MeetingScheduler/>}/>
